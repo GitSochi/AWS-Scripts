@@ -1,3 +1,5 @@
+### This is a Custom Config Lambda Rule, that evaluates the Config rule based off the s3-mfa-bucket-delete-enabled Config Rule, it will also update the compliance status in Config ###
+
 import boto3
 from datetime import datetime
 
